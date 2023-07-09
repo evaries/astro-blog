@@ -12,5 +12,6 @@
 			"@/site-config": ["src/site.config.ts"]
 		}
 	},
+	"type": "module",
 	"exclude": ["node_modules", "**/node_modules/*", ".vscode", "dist"]
 }
