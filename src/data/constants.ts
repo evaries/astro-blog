@@ -13,10 +13,9 @@ export const MENU_LINKS = [
 	},
 ];
 
-// ! Remember to add your own socials
 export const SOCIAL_LINKS = {
 	github: "https://github.com/evaries",
-	twitter: "https://twitter.com/yev_henii",
+	twitter: "https://twitter.com/y_nadtochii",
 	instagram: "https://instagram.com/e.nadtochii",
 	email: "nadtochii.e@gmail.com",
 };
