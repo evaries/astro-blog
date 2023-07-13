@@ -2,7 +2,7 @@ import type { APIContext, GetStaticPaths } from "astro";
 import { getCollection, getEntryBySlug } from "astro:content";
 import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
-import satori, { SatoriOptions } from "satori";
+import satori, { type SatoriOptions } from "satori";
 import { html } from "satori-html";
 import { Resvg } from "@resvg/resvg-js";
 import { siteConfig } from "@/site-config";
@@ -35,12 +35,12 @@ const ogOptions: SatoriOptions = {
 	],
 };
 
-const markup = (title: string, pubDate: string) => html`<div
+const markup = (pubDate: string, coverDescription: string) => html`<div
 	tw="flex flex-col w-full h-full bg-[#1d1f21] text-[#c9cacc]"
 >
 	<div tw="flex flex-col flex-1 w-full p-10 justify-center">
 		<p tw="text-2xl mb-6">${pubDate}</p>
-		<h1 tw="text-6xl font-bold leading-snug text-white">${title}</h1>
+		<h1 tw="text-6xl font-bold leading-snug text-white">${coverDescription}</h1>
 	</div>
 	<div tw="flex items-center justify-between w-full p-10 border-t border-[#2bbc89] text-xl">
 		<div tw="flex items-center">
@@ -67,12 +67,13 @@ const markup = (title: string, pubDate: string) => html`<div
 
 export async function get({ params: { slug } }: APIContext) {
 	const post = await getEntryBySlug("post", slug!);
-	const title = post?.data.title ?? siteConfig.title;
+	// const title = post?.data.title ?? siteConfig.title;
 	const postDate = getFormattedDate(post?.data.publishDate ?? Date.now(), {
 		weekday: "long",
 		month: "long",
 	});
-	const svg = await satori(markup(title, postDate), ogOptions);
+	const coverDescription = post?.data.coverDescription ?? siteConfig.description;
+	const svg = await satori(markup(postDate, coverDescription), ogOptions);
 	const png = new Resvg(svg).render().asPng();
 	return {
 		body: png,

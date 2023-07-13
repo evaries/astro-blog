@@ -2,6 +2,7 @@
 title: "Що на тебе тут чекає?"
 description: "Теми, цілі і моя мотивація в цьому блозі"
 publishDate: "09 July 2023"
+coverDescription: "What's going on here?"
 coverImage:
   src: "./cover.png"
   alt: "nice monte landscape"
