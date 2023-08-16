@@ -2,9 +2,7 @@
   command = 'pnpm build'
 
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/uk"
-  status = 301
-  force = true
-  query = {path = ":path"}
-  conditions = {Language = ["uk"], Country = ["UA"], Role = ["admin"]}
+  status = 200
+  force = false
