@@ -1,0 +1,45 @@
+---
+import PageLayout from "@/layouts/Base";
+import { getUniqueTagsWithCount } from "@/utils";
+import { getCollection } from "astro:content";
+import { getLangFromUrl, useTranslations } from "@/i18n";
+
+const allPosts = await getCollection("post");
+const filteredByLang = allPosts.filter((post) => post.data.lang === getLangFromUrl(Astro.url));
+const allTags = getUniqueTagsWithCount(filteredByLang);
+
+export function getStaticPaths() {
+	return [{ params: { lang: "en" } }, { params: { lang: "uk" } }];
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const meta = {
+	title: "All Tags",
+	description: "All Tags from my blogs",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">{t("tags.title")}</h1>
+	<ul class="space-y-4">
+		{
+			Object.entries(allTags).map(([tag, val]) => (
+				<li class="flex items-center gap-x-2">
+					<a
+						class="cactus-link inline-block"
+						href={`/${lang}/tags/${tag}/`}
+						title={`View posts with the tag: ${tag}`}
+						rel="prefetch"
+					>
+						&#35;{tag}
+					</a>
+					<span class="inline-block">
+						- {val} {val > 1 ? t("tags.posts") : t("tags.post")}
+					</span>
+				</li>
+			))
+		}
+	</ul>
+</PageLayout>

@@ -1,0 +1,25 @@
+---
+import PageLayout from "@/layouts/Base";
+import { getLangFromUrl, useTranslations } from "@/i18n";
+
+const meta = {
+	title: "About",
+	description: "About page",
+};
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+export function getStaticPaths() {
+	return [{ params: { lang: "en" } }, { params: { lang: "uk" } }];
+}
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">{t("about.title")}</h1>
+		<p>{t("about.subtitle")}</p>
+		<p>
+			{t("about.desc")}{" "}
+			<a class="cactus-link" href=`/${lang}/posts/introduction/`>{t("about.appendix")}</a>.
+		</p>
+	</div>
+</PageLayout>

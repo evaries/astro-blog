@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import SkipLink from "@/components/SkipLink";
 import { siteConfig } from "@/site-config";
+import { getLangFromUrl } from "src/i18n/utils";
 
 interface Props {
 	meta: SiteMeta;
@@ -14,9 +15,11 @@ interface Props {
 const {
 	meta: { title, description = siteConfig.description, ogImage, articleDate },
 } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+
 ---
 
-<html lang={siteConfig.lang}>
+<html lang={lang}>
 	<head>
 		<BaseHead
 			title={title}

@@ -3,6 +3,7 @@ import type { CollectionEntry } from "astro:content";
 
 import BaseLayout from "./Base.astro";
 import BlogHero from "@/components/blog/Hero";
+import { getLangFromUrl, useTranslations } from "@/i18n";
 
 interface Props {
 	post: CollectionEntry<"post">;
@@ -16,6 +17,8 @@ const {
 const socialImage = ogImage ?? `/og-image/${slug}.png`;
 const articleDate = publishDate.toISOString();
 const { headings } = await post.render();
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <script>
@@ -42,7 +45,7 @@ const { headings } = await post.render();
 		{
 			!!headings.length && (
 				<aside class="sticky top-20 order-2 -me-32 hidden basis-64 lg:block">
-					<h2 class="font-semibold">Table of Contents</h2>
+					<h2 class="font-semibold">{t("post.table")}</h2>
 					<ul class="mt-4 text-xs">
 						{headings.map(({ depth, slug, text }) => (
 							<li class="line-clamp-2 hover:text-accent">

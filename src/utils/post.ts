@@ -25,3 +25,11 @@ export function getUniqueTagsWithCount(posts: CollectionEntry<"post">[] = []): {
 		return runningTags;
 	}, {});
 }
+
+export function getUniqueLangs(posts: CollectionEntry<"post">[] = []) {
+	const uniqueLangs = new Set<string>();
+	posts.forEach((post) => {
+		uniqueLangs.add(post.data.lang);
+	});
+	return Array.from(uniqueLangs);
+}

@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@/layouts/Base";
+import PostPreview from "@/components/blog/PostPreview";
+import SocialList from "@/components/SocialList";
+import { sortMDByDate } from "@/utils";
+import { getLangFromUrl, useTranslations } from "@/i18n";
+
+export function getStaticPaths() {
+	return [{ params: { lang: "en" } }, { params: { lang: "uk" } }];
+}
+const lang = getLangFromUrl(Astro.url);
+
+const MAX_POSTS = 10;
+const posts = await getCollection("post");
+const allPosts = posts.filter((p) => p.data.lang === lang);
+const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+const t = useTranslations(lang);
+---
+
+<PageLayout meta={{ title: "Home" }}>
+	<section>
+		<h1 class="title mb-6">👋</h1>
+		<p class="mb-4">{t("main.title")}</p>
+		<p class="mb-4">{t("main.description")}</p>
+	</section>
+	<SocialList />
+	<section aria-label="Blog post list" class="mt-16">
+		<h2 class="title mb-4 text-xl">{t("main.articles")}</h2>
+		<ul class="space-y-4 sm:space-y-2">
+			{
+				allPostsByDate.map((p) => (
+					<li class="flex flex-col gap-x-2 sm:flex-row">
+						<PostPreview post={p} />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</PageLayout>

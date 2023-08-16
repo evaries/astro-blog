@@ -23,6 +23,7 @@ const post = defineCollection({
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			coverDescription: z.string().min(10).max(160),
 			ogImage: z.string().optional(),
+			lang: z.string(),
 		}),
 });
 
