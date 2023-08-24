@@ -14,10 +14,11 @@ const {
 	data: { title, description, ogImage, publishDate },
 	slug,
 } = post;
-const socialImage = ogImage ?? `/og-image/${slug}.png`;
+const slugWoLang = slug.split("/").slice(1).join("/");
+const lang = getLangFromUrl(Astro.url);
+const socialImage = ogImage ?? `/${lang}/og-image/${slugWoLang}.png`;
 const articleDate = publishDate.toISOString();
 const { headings } = await post.render();
-const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 

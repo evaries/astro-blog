@@ -6,6 +6,7 @@ coverDescription: "How do you think?"
 coverImage:
   src: "./title.png"
   alt: "thinker"
+ogImage: "./title.png"
 tags: ["self-development", "lifestyle"]
 lang: "en"
 ---
