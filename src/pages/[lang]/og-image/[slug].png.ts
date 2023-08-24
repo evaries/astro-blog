@@ -66,7 +66,9 @@ const markup = (pubDate: string, coverDescription: string) => html`<div
 </div>`;
 
 export async function get({ params: { slug } }: APIContext) {
-	const post = await getEntryBySlug("post", slug!);
+	const slugWoLang = slug!.split("/").slice(1).join("/");
+
+	const post = await getEntryBySlug("post", slugWoLang);
 	// const title = post?.data.title ?? siteConfig.title;
 	const postDate = getFormattedDate(post?.data.publishDate ?? Date.now(), {
 		weekday: "long",
@@ -83,5 +85,13 @@ export async function get({ params: { slug } }: APIContext) {
 
 export const getStaticPaths = (async () => {
 	const posts = await getCollection("post");
-	return posts.filter(({ data }) => !data.ogImage).map(({ slug }) => ({ params: { slug } }));
+	const filteredPosts = posts.filter(({ data }) => !data.ogImage);
+
+	const postUk = filteredPosts.map(({ slug }) => ({
+		params: { lang: "uk", slug: slug.split("/").slice(1).join("/") },
+	}));
+	const postEn = filteredPosts.map(({ slug }) => ({
+		params: { lang: "en", slug: slug.split("/").slice(1).join("/") },
+	}));
+	return [...postUk, ...postEn];
 }) satisfies GetStaticPaths;
