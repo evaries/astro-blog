@@ -9,11 +9,16 @@ export const get = async () => {
 		title: siteConfig.title,
 		description: siteConfig.description,
 		site: import.meta.env.SITE,
-		items: posts.map((post) => ({
-			title: post.data.title,
-			description: post.data.description,
-			pubDate: post.data.publishDate,
-			link: `posts/${post.slug}`,
-		})),
+		items: posts.map((post) => {
+			console.log(post);
+			const slug = post.slug.split("/").slice(1).join("/");
+
+			return {
+				title: post.data.title,
+				description: post.data.description,
+				pubDate: post.data.publishDate,
+				link: `${post.data.lang}/posts/${slug}`,
+			};
+		}),
 	});
 };
