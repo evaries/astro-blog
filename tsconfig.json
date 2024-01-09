@@ -5,6 +5,7 @@
 		"verbatimModuleSyntax": true,
 		"paths": {
 			"@/components/*": ["src/components/*.astro"],
+			"@/assets/*": ["src/assets/*.astro"],
 			"@/layouts/*": ["src/layouts/*.astro"],
 			"@/utils": ["src/utils/index.ts"],
 			"@/i18n": ["src/i18n/index.ts"],
