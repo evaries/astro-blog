@@ -4,37 +4,205 @@ import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
 import { sortMDByDate } from "@/utils";
-import { getLangFromUrl, useTranslations } from "@/i18n";
+import { getLangFromUrl, ui, useTranslations } from "@/i18n";
+import { Image } from "astro:assets";
+import Portrait from "@/assets/svg/portrait";
+import Design from "@/assets/svg/design";
+import Code from "@/assets/svg/code";
+import Optimizations from "@/assets/svg/optimizations";
+import Maintenance from "@/assets/svg/maintenance";
+import Standard from "@/assets/svg/standard";
+import Advanced from "@/assets/svg/advanced";
+import Individual from "@/assets/svg/individual";
+import Check from "@/assets/svg/check";
+import { advantages } from "@/data/content";
+import type { UiKeys } from "src/i18n/ui";
+import PackageList from "@/components/PackageList";
 
 export function getStaticPaths() {
 	return [{ params: { lang: "en" } }, { params: { lang: "uk" } }];
 }
 const lang = getLangFromUrl(Astro.url);
-
-const MAX_POSTS = 10;
-const posts = await getCollection("post");
-const allPosts = posts.filter((p) => p.data.lang === lang);
-const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 const t = useTranslations(lang);
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">👋</h1>
-		<p class="mb-4">{t("main.title")}</p>
-		<p class="mb-4">{t("main.description")}</p>
+		<h1 class="text-6xl font-bold md:text-8xl">{t("home.h1")}</h1>
+		<p class="mt-16 max-w-[400px]">
+			{t("home.title")}
+		</p>
+		<a href="#pricing" class="mt-4 flex text-2xl font-bold hover:underline">{t("home.price")}</a>
 	</section>
-	<SocialList />
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">{t("main.articles")}</h2>
-		<ul class="space-y-4 sm:space-y-2">
+	<section class="mt-16 grid">
+		<h2 class="grid justify-center text-4xl font-bold">{t("home.about")}</h2>
+		<div class="mt-4 grid grid-flow-row-dense gap-3 md:grid-cols-2">
+			<div class="mt-8">
+				<p class="mt-3">
+					{t("home.about.1")}
+				</p>
+				<p class="mt-3">
+					{t("home.about.2")}
+				</p>
+				<p class="mt-3">
+					{t("home.about.3")}
+				</p>
+			</div>
+			<div class="flex justify-center">
+				<Portrait />
+			</div>
+		</div>
+	</section>
+	<section class="mt-16 grid">
+		<h2 class="grid justify-center text-4xl font-bold">{t("home.services")}</h2>
+		<div class="mt-8 grid grid-flow-row justify-center gap-3 sm:grid-cols-2 sm:grid-rows-2">
+			<div class="services">
+				<div class="grid justify-center">
+					<Design />
+				</div>
+				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
+					<span class="">{t("home.design")}</span>
+				</div>
+				<p class="mt-7">
+					{t("home.design.des")}
+				</p>
+			</div>
+			<div class="services">
+				<div class="grid justify-center">
+					<Code />
+				</div>
+				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
+					<span class="">{t("home.code")}</span>
+				</div>
+				<p class="mt-7">
+					{t("home.code.des")}
+				</p>
+			</div>
+			<div class="services">
+				<div class="grid justify-center">
+					<Optimizations />
+				</div>
+				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
+					<span class="">{t("home.optimizations")}</span>
+				</div>
+				<p class="mt-7">
+					{t("home.optimizations.des")}
+				</p>
+			</div>
+			<div class="services">
+				<div class="grid justify-center">
+					<Maintenance />
+				</div>
+				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
+					<span class="">{t("home.maintenance")}</span>
+				</div>
+				<p class="mt-7">
+					{t("home.maintenance.des")}
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="mt-16">
+		<h2 class="grid justify-center text-center text-4xl font-bold">
+			{t("home.res")}
+		</h2>
+		<p class="mt-4">
+			{t("home.res.des")}
+		</p>
+		<div class="mt-8 grid grid-cols-[repeat(auto-fill,400px)] justify-center gap-2">
 			{
-				allPostsByDate.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
-						<PostPreview post={p} />
-					</li>
-				))
+				advantages.map((item) => {
+					return (
+						<div class="p-3">
+							<h3 class="text-xl font-semibold">{t(item.name as UiKeys)}</h3>
+							<p class="mt-4">{t(item.description as UiKeys)}</p>
+						</div>
+					);
+				})
 			}
-		</ul>
+		</div>
+	</section>
+	<section id="pricing">
+		<h2 class="mt-16 grid justify-center text-center text-4xl font-bold">
+			{t("home.pricing")}
+		</h2>
+		<div class="mt-16 grid grid-flow-row justify-items-center gap-2 md:grid-cols-3">
+			<div class="flex max-w-[400px] flex-col items-center rounded-md p-3">
+				<div class="grid justify-center">
+					<Standard />
+				</div>
+				<h3 class="mt-2 flex justify-center text-xl font-semibold">{t("home.std")}</h3>
+				<div class="mt-4 flex justify-center">
+					<span class="inline-block">$</span><h4 class="ml-1 inline text-2xl font-bold">
+						1000+
+					</h4><span class="flex self-end">/{t("home.site")}</span>
+				</div>
+				<p class="mt-4">
+					{t("home.std.title.1")}
+				</p>
+				<p class="mt-4 italic">
+					{t("home.std.title.2")}
+				</p>
+				<PackageList count={6} pkg="std" />
+				<div class="mt-8 flex justify-center">
+					<a
+						class="text-xl font-bold hover:underline"
+						href="mailto:nadtochii.e@gmail.com?subject=Standard Site&body=Hello! I am interested in creating a standard site."
+					>
+						{t("home.order")}
+					</a>
+				</div>
+			</div>
+			<div class="flex max-w-[400px] flex-col items-center rounded-md p-3 shadow-lg">
+				<div class="grid justify-center">
+					<Advanced />
+				</div>
+				<h3 class="mt-2 flex justify-center text-xl font-semibold">{t("home.adv")}</h3>
+				<div class="mt-4 flex justify-center">
+					<span class="inline-block">$</span><h4 class="ml-1 inline text-2xl font-bold">
+						1500+
+					</h4><span class="flex self-end">/{t("home.site")}</span>
+				</div>
+				<p class="mt-4">
+					{t("home.adv.title.1")}
+				</p>
+				<p class="mt-4 italic">
+					{t("home.adv.title.2")}
+				</p>
+				<PackageList count={9} pkg="adv" />
+				<div class="mt-8 flex justify-center">
+					<a
+						class="text-xl font-bold hover:underline"
+						href="mailto:nadtochii.e@gmail.com?subject=Advanced Site&body=Hello! I am interested in creating a advanced site."
+					>
+						{t("home.order")}
+					</a>
+				</div>
+			</div>
+			<div class="flex max-w-[400px] flex-col items-center rounded-md p-3">
+				<div class="grid justify-center">
+					<Individual />
+				</div>
+				<h3 class="mt-2 flex justify-center text-xl font-semibold">{t("home.ind")}</h3>
+				<div class="mt-4 flex justify-center">
+					<span class="inline-block">$</span><h4 class="ml-1 inline text-2xl font-bold">
+						3000+
+					</h4><span class="flex self-end">/{t("home.site")}</span>
+				</div>
+				<p class="mt-4">
+					{t("home.ind.title.1")}
+				</p>
+				<p class="mt-4 italic">{t("home.ind.title.2")}</p>
+				<PackageList count={9} pkg="ind" />
+				<div class="mt-8 flex justify-center p-2">
+					<a
+						class="text-xl font-bold hover:underline"
+						href="mailto:nadtochii.e@gmail.com?subject=Individual Site&body=Hello! I am interested in creating an individual designed site."
+					>
+						{t("home.order")}
+					</a>
+				</div>
+			</div>
+		</div>
 	</section>
 </PageLayout>
