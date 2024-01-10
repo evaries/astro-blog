@@ -15,7 +15,7 @@ export const MENU_LINKS = [
 
 export const SOCIAL_LINKS = {
 	github: "https://github.com/evaries",
-	twitter: "https://twitter.com/y_nadtochii",
+	twitter: "https://twitter.com/yev_henii",
 	instagram: "https://instagram.com/e.nadtochii",
 	email: "nadtochii.e@gmail.com",
 };

@@ -1,0 +1,25 @@
+---
+import Check from "@/assets/svg/check";
+import { getLangFromUrl, useTranslations } from "@/i18n";
+import type { UiKeys } from "src/i18n/ui";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { count, pkg } = Astro.props;
+---
+
+<div class="mt-4 flex w-full items-start">
+	<ul>
+		{
+			Array(count)
+				.fill("")
+				.map((_, i) => {
+					return (
+						<div class="flex items-center">
+							<Check />
+							<li class="ml-1 py-1 text-xs">{t(`home.${pkg}.feature.${i}` as UiKeys)}</li>
+						</div>
+					);
+				})
+		}
+	</ul>
+</div>
