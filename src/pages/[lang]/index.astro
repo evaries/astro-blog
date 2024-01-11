@@ -28,7 +28,7 @@ const t = useTranslations(lang);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="text-6xl font-bold md:text-8xl">{t("home.h1")}</h1>
+		<h1 class="text-5xl sm:text-6xl font-bold md:text-8xl">{t("home.h1")}</h1>
 		<p class="mt-16 max-w-[400px]">
 			{t("home.title")}
 		</p>
@@ -109,7 +109,7 @@ const t = useTranslations(lang);
 		<p class="mt-4">
 			{t("home.res.des")}
 		</p>
-		<div class="mt-8 grid grid-cols-[repeat(auto-fill,400px)] justify-center gap-2">
+		<div class="mt-8 grid grid-cols-[repeat(auto-fill,310px)] md:grid-cols-[repeat(auto-fill,400px)] justify-center gap-2">
 			{
 				advantages.map((item) => {
 					return (
