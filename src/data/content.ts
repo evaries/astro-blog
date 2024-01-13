@@ -12,12 +12,12 @@ export const advantages = [
 		description: "home.mobile.des",
 	},
 	{
-		name: "home.seo",
-		description: "home.seo.des",
-	},
-	{
 		name: "home.conversion",
 		description: "home.conversion.des",
+	},
+	{
+		name: "home.seo",
+		description: "home.seo.des",
 	},
 	{
 		name: "home.speed",
