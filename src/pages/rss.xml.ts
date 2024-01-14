@@ -6,8 +6,8 @@ export const get = async () => {
 	const posts = await getCollection("post");
 
 	return rss({
-		title: siteConfig.title,
-		description: siteConfig.description,
+		title: siteConfig.title.en,
+		description: siteConfig.description.en,
 		site: import.meta.env.SITE,
 		items: posts.map((post) => {
 			console.log(post);

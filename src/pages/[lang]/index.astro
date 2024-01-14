@@ -28,7 +28,7 @@ const t = useTranslations(lang);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="text-5xl sm:text-6xl font-bold md:text-8xl">{t("home.h1")}</h1>
+		<h1 class="text-5xl font-bold sm:text-6xl md:text-8xl">{t("home.h1")}</h1>
 		<p class="mt-16 max-w-[400px]">
 			{t("home.title")}
 		</p>
@@ -106,10 +106,12 @@ const t = useTranslations(lang);
 		<h2 class="grid justify-center text-center text-4xl font-bold">
 			{t("home.res")}
 		</h2>
-		<p class="mt-4">
+		<p class="mt-4 text-center">
 			{t("home.res.des")}
 		</p>
-		<div class="mt-8 grid grid-cols-[repeat(auto-fill,310px)] md:grid-cols-[repeat(auto-fill,400px)] justify-center gap-2">
+		<div
+			class="mt-8 grid grid-cols-[repeat(auto-fill,310px)] justify-center gap-2 md:grid-cols-[repeat(auto-fill,400px)]"
+		>
 			{
 				advantages.map((item) => {
 					return (
@@ -126,6 +128,9 @@ const t = useTranslations(lang);
 		<h2 class="mt-16 grid justify-center text-center text-4xl font-bold">
 			{t("home.pricing")}
 		</h2>
+		<p class="mt-8 text-center">
+			{t("home.pricing.des")}
+		</p>
 		<div class="mt-16 grid grid-flow-row justify-items-center gap-2 md:grid-cols-3">
 			<div class="flex max-w-[400px] flex-col items-center rounded-md p-3">
 				<div class="grid justify-center">

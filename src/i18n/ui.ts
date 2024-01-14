@@ -22,7 +22,7 @@ export const ui = {
 		"about.title": "About",
 		"about.subtitle": "Create, not just consume.",
 		"about.desc":
-			" Under this motto, I started this blog. Here is all about my experience, lifestyle and interests. I write about web development, sports, health, habits and self-improvement. I convert life experience into structured paragraphs. I develop myself and inspire others. You can read more",
+			"Under this motto, I started this blog. Here is all about my experience, lifestyle and interests. I write about web development, sports, health, habits and self-improvement. I convert life experience into structured paragraphs. I develop myself and inspire others. You can read more",
 		"about.appendix": "here",
 		"404.title": "404 | Oops! Something went wrong",
 		"404.description": "Please use the navigation to find your way back",
@@ -45,9 +45,11 @@ export const ui = {
 		"home.about.1":
 			"Hello there! I'm Yevhenii, a passionate and versatile web designer and developer with a keen eye for creating visually stunning and highly functional digital experiences. With a solid foundation in both design principles and cutting-edge development technologies, I bring creativity and technical expertise to every project I undertake.",
 		"home.about.2":
-			"My journey in the world of web design and development has equipped me with a deep understanding of user experience, responsive design, and the latest industry trends. Whether I'm crafting pixel-perfect layouts or writing clean and efficient code, my goal is to transform ideas into engaging online solutions.",
+			"I specialize in crafting affordable websites that redefine online success for small to medium-sized businesses. My commitment is to deliver unbeatable designs that are not only visually stunning but also user-friendly, ensuring a seamless experience for your customers.",
+		// "My journey in the world of web design and development has equipped me with a deep understanding of user experience, responsive design, and the latest industry trends. Whether I'm crafting pixel-perfect layouts or writing clean and efficient code, my goal is to transform ideas into engaging online solutions.",
 		"home.about.3":
-			"Let's collaborate and bring your digital vision to life! Whether you're a business looking to establish an online presence or an individual with a unique project in mind, I'm excited to bring my skills and passion to the table. Let's create something extraordinary together.",
+			"I understand the unique challenges faced by small businesses, and that's why my website solutions are not only effective but also budget-friendly. Your investment in a powerful online presence shouldn't break the bank.",
+		// "Let's collaborate and bring your digital vision to life! Whether you're a business looking to establish an online presence or an individual with a unique project in mind, I'm excited to bring my skills and passion to the table. Let's create something extraordinary together.",
 		"home.services": "Services",
 		"home.design": "Design",
 		"home.design.des":
@@ -63,7 +65,8 @@ export const ui = {
 			"Take care of ongoing website updates to ensure your site remains current, user-friendly, and technologically advanced. Make sure your website is always running smoothly and optimally so you can focus solely on core business priorities.",
 		"home.res": "What Gives Result",
 		"home.res.des":
-			"Step into a straightforward website development process designed with simplicity and your business in mind. Experience the ease of direct communication with a single point of contact throughout, ensuring a clear and efficient collaboration. Your website is meticulously crafted, tailored to your unique needs through a research-driven approach. The result? A hassle-free journey to a powerful online presence that aligns perfectly with your business goals.",
+			"My websites are more than just aesthetically pleasing; they are designed to be effective and easy to use. I prioritize user experience, ensuring that visitors can effortlessly navigate your site, increasing engagement and conversions. Make a lasting impression with visually striking websites that captivate your audience. I go beyond the ordinary, creating an online presence that truly reflects the essence of your business and resonates with your customers.",
+		// "Step into a straightforward website development process designed with simplicity and your business in mind. Experience the ease of direct communication with a single point of contact throughout, ensuring a clear and efficient collaboration. Your website is meticulously crafted, tailored to your unique needs through a research-driven approach. The result? A hassle-free journey to a powerful online presence that aligns perfectly with your business goals.",
 		"home.research": "Research-Driven Approach",
 		"home.research.des":
 			"Gain the advantage of a research-driven website creation process. I conduct in-depth research into your industry, target audience, and competitors to ensure that your website is strategically designed to meet the specific needs of your business.",
@@ -89,6 +92,8 @@ export const ui = {
 		"home.communication.des":
 			"Experience streamlined communication with a single point of contact throughout the entire website creation process. This ensures clarity, efficiency, and a more personalized experience as we work together to bring your vision to life.",
 		"home.pricing": "Affordable Website Pricing",
+		"home.pricing.des":
+			"Ready to transform your online presence affordably? Contact me today for a free consultation and discover how unbeatable websites can drive success for your business!",
 		"home.site": "site",
 		"home.std": "Standard",
 		"home.std.title.1": "A website featuring minimal design customization and essential features.",
@@ -166,13 +171,15 @@ export const ui = {
 		"home.about.1":
 			"Привіт! Я Євгеній, креативний та досвідчений веб-дизайнер і розробник, який створює візуально приголомшливі та функціональні цифрові продукти. Маючи міцний фундамент як у принципах дизайну, так і в передових технологіях розробки, я вношу творчий підхід і технічний досвід у кожен проект, який реалізовую.",
 		"home.about.2":
-			"Моя подорож у світі веб-дизайну та розробки озброїла мене глибоким розумінням користувацького досвіду, адаптивного дизайну та останніх новинок індустрії. Незалежно від того, чи створюю я бездоганні макети, чи пишу чистий та ефективний код, моя мета - перетворити ідеї на цікаві онлайн-рішення.",
+			"Я спеціалізуюсь на створенні доступних веб-сайтів, які створюють онлайн-успіх для малих та середніх бізнесів. Моє завдання - створювати неперевершені дизайни, які не лише візуально привабливі, але й зручні в користуванні, забезпечуючи бездоганний досвід для ваших клієнтів.",
+		// "Моя подорож у світі веб-дизайну та розробки озброїла мене глибоким розумінням користувацького досвіду, адаптивного дизайну та останніх новинок індустрії. Незалежно від того, чи створюю я бездоганні макети, чи пишу чистий та ефективний код, моя мета - перетворити ідеї на цікаві онлайн-рішення.",
 		"home.about.3":
-			"Давайте співпрацювати і втілимо ваше цифрове бачення в життя! Незалежно від того, чи є ви компанією, яка прагне забезпечити свою присутність в Інтернеті, чи яскрава особистість з унікальним проєктом, я з радістю поділюся з вами своїми навичками та пристрастю до справи. Нумо створювати неймовірні речі разом!",
+			"Я розумію унікальні виклики, з якими стикаються малі бізнеси, тому мої веб-рішення не лише ефективні, а й доступні. Ваша інвестиція в яскраву онлайн-присутність не повинна вас збанкрутувати.",
+		// "Давайте співпрацювати і втілимо ваше цифрове бачення в життя! Незалежно від того, чи є ви компанією, яка прагне забезпечити свою присутність в Інтернеті, чи яскрава особистість з унікальним проєктом, я з радістю поділюся з вами своїми навичками та пристрастю до справи. Нумо створювати неймовірні речі разом!",
 		"home.services": "Послуги",
 		"home.design": "Дизайн",
 		"home.design.des":
-			"Я тісно співпрацюю з вами, щоб створити класний веб-сайт, який демонструє ваш унікальний стиль і забезпечує зручність користування. Я роблю ваш онлайн-простір візуально привабливим.",
+			"Я тісно співпрацюю з вами, щоб створити унікальний веб-сайт, який демонструє ваш самобутній стиль і забезпечує зручність користування. Я роблю ваш онлайн-простір візуально привабливим.",
 		"home.code": "Розробка",
 		"home.code.des":
 			"Втілюю ваші ідеї в життя онлайн, використовуючи новітні технології та практики розробки. Я спеціалізуюся на перетворенні концепцій в реальність, створюючи повнофункціональні веб-сайти, які відповідають вашим цілям",
@@ -184,7 +191,8 @@ export const ui = {
 			"Я дбаю про постійне оновлення веб-сайту, щоб ваш сайт залишався актуальним, зручним для користувачів і технологічно просунутим. Я забезпечую безперебійну та оптимальну роботу вашого веб-сайту, щоб ви могли зосередитися виключно на основних бізнес-пріоритетах",
 		"home.res": "Що дає результат",
 		"home.res.des":
-			"Зробіть крок у простий процес розробки веб-сайту, розроблений з урахуванням особливостей вашого бізнесу. Відчуйте легкість прямого спілкування з єдиною контактною особою, що забезпечує чітку та ефективну співпрацю. Ваш веб-сайт буде ретельно розроблений, пристосований до ваших унікальних потреб завдяки підходу, заснованому на детальному дослідженні ринку. Результат? Успішний шлях до яскравої присутності в Інтернеті, яка ідеально відповідає вашим бізнес-цілям.",
+			"Мої веб-сайти - це не лише естетична краса; вони призначені бути ефективними та зручними в користуванні. Я надаю пріоритет користувацькому досвіду, забезпечуючи легку навігацію, що підвищує залученість та конверсію. Мої дизайни виходять за межі звичайного, створюючи онлайн-присутність, яка дійсно відображає сутність вашого бізнесу і резонує з вашими клієнтами.",
+		// "Зробіть крок у простий процес розробки веб-сайту, розроблений з урахуванням особливостей вашого бізнесу. Відчуйте легкість прямого спілкування з єдиною контактною особою, що забезпечує чітку та ефективну співпрацю. Ваш веб-сайт буде ретельно розроблений, пристосований до ваших унікальних потреб завдяки підходу, заснованому на детальному дослідженні ринку. Результат? Успішний шлях до яскравої присутності в Інтернеті, яка ідеально відповідає вашим бізнес-цілям.",
 		"home.research": "Дослідницький підхід",
 		"home.research.des":
 			"Скористайтеся перевагами процесу створення веб-сайту, заснованого на дослідженнях. Я проводжу глибокі дослідження вашої галузі, цільової аудиторії та конкурентів, щоб гарантувати, що ваш веб-сайт буде розроблений для задоволення конкретних потреб вашого бізнесу.",
@@ -210,6 +218,8 @@ export const ui = {
 		"home.communication.des":
 			"Оцініть спрощену комунікацію з єдиною контактною особою протягом усього процесу створення веб-сайту. Це забезпечує чіткість, ефективність і більш персоналізований досвід, оскільки ми працюємо разом, щоб втілити ваше бачення в життя.",
 		"home.pricing": "Доступні ціни на сайт",
+		"home.pricing.des":
+			"Готові трансформувати свою онлайн-присутність доступно? Зв'яжіться зі мною сьогодні для безкоштовної консультації та дізнайтеся, як неперевершені веб-сайти можуть допомогти вам досягти успіху у вашому бізнесу!",
 		"home.site": "сайт",
 		"home.std": "Стандартний",
 		"home.std.title.1": "Сайт з мінімальним налаштуванням дизайну та основними функціями.",
@@ -251,3 +261,5 @@ export const ui = {
 } as const;
 
 export type UiKeys = keyof typeof ui.en;
+
+export type Langs = keyof typeof languages;
