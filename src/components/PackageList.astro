@@ -14,10 +14,12 @@ const { count, pkg } = Astro.props;
 				.fill("")
 				.map((_, i) => {
 					return (
-						<div class="flex items-center">
-							<Check />
-							<li class="ml-1 py-1 text-xs">{t(`home.${pkg}.feature.${i}` as UiKeys)}</li>
-						</div>
+						<li>
+							<div class="flex items-center">
+								<Check />
+								<span class="ml-1 py-1 text-xs">{t(`home.${pkg}.feature.${i}` as UiKeys)}</span>
+							</div>
+						</li>
 					);
 				})
 		}
