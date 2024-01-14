@@ -74,7 +74,7 @@ export async function get({ params: { slug } }: APIContext) {
 		weekday: "long",
 		month: "long",
 	});
-	const coverDescription = post?.data.coverDescription ?? siteConfig.description;
+	const coverDescription = post?.data.coverDescription ?? siteConfig.description.en;
 	const svg = await satori(markup(postDate, coverDescription), ogOptions);
 	const png = new Resvg(svg).render().asPng();
 	return {
