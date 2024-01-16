@@ -1,8 +1,8 @@
 ---
-const { title, description, className} = Astro.props;
+const { title, description, className } = Astro.props;
 ---
 
-<div class:list={['grid grid-cols-[300px_1fr]', className || '']}>
+<div class:list={["grid grid-cols-[300px_1fr]", className || ""]}>
 	<div>
 		<span class="text-xl font-bold">{title}</span>
 		<p class="mt-2 block">
@@ -10,7 +10,7 @@ const { title, description, className} = Astro.props;
 		</p>
 	</div>
 	<div class="mr-[-4px] grid h-4 grid-cols-[1fr_12px] items-center">
-		<div class="h-[2px] w-full bg-black"></div>
-		<div class="h-4 w-4 rounded-full bg-black"></div>
+		<div class="h-[2px] w-full bg-textColor"></div>
+		<div class="h-4 w-4 rounded-full bg-textColor"></div>
 	</div>
 </div>
