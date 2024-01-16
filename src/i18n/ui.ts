@@ -46,10 +46,9 @@ export const ui = {
 			"Hello there! I'm Yevhenii, a passionate and versatile web designer and developer with a keen eye for creating visually stunning and highly functional digital experiences. With a solid foundation in both design principles and cutting-edge development technologies, I bring creativity and technical expertise to every project I undertake.",
 		"home.about.2":
 			"I specialize in crafting affordable websites that redefine online success for small to medium-sized businesses. My commitment is to deliver unbeatable designs that are not only visually stunning but also user-friendly, ensuring a seamless experience for your customers.",
-		// "My journey in the world of web design and development has equipped me with a deep understanding of user experience, responsive design, and the latest industry trends. Whether I'm crafting pixel-perfect layouts or writing clean and efficient code, my goal is to transform ideas into engaging online solutions.",
 		"home.about.3":
 			"I understand the unique challenges faced by small businesses, and that's why my website solutions are not only effective but also budget-friendly. Your investment in a powerful online presence shouldn't break the bank.",
-		// "Let's collaborate and bring your digital vision to life! Whether you're a business looking to establish an online presence or an individual with a unique project in mind, I'm excited to bring my skills and passion to the table. Let's create something extraordinary together.",
+		"home.process": "Here about process",
 		"home.services": "Services",
 		"home.design": "Design",
 		"home.design.des":
@@ -66,7 +65,6 @@ export const ui = {
 		"home.res": "What Gives Result",
 		"home.res.des":
 			"My websites are more than just aesthetically pleasing; they are designed to be effective and easy to use. I prioritize user experience, ensuring that visitors can effortlessly navigate your site, increasing engagement and conversions. Make a lasting impression with visually striking websites that captivate your audience. I go beyond the ordinary, creating an online presence that truly reflects the essence of your business and resonates with your customers.",
-		// "Step into a straightforward website development process designed with simplicity and your business in mind. Experience the ease of direct communication with a single point of contact throughout, ensuring a clear and efficient collaboration. Your website is meticulously crafted, tailored to your unique needs through a research-driven approach. The result? A hassle-free journey to a powerful online presence that aligns perfectly with your business goals.",
 		"home.research": "Research-Driven Approach",
 		"home.research.des":
 			"Gain the advantage of a research-driven website creation process. I conduct in-depth research into your industry, target audience, and competitors to ensure that your website is strategically designed to meet the specific needs of your business.",
@@ -131,6 +129,53 @@ export const ui = {
 		"home.ind.feature.7": "Iteration development",
 		"home.ind.feature.8": "Custom solutions",
 		"home.order": "Order Website",
+
+		"process.title": "How the Work is Done",
+		"process.des":
+			"The key to success is a process. Over a dozen of projects, I defined well performed comprehensive guide, which help me to get job done faster and clearly define all steps in my work.",
+
+		"process.strategy": "strategy",
+		"process.creative": "creative",
+		"process.dev": "development",
+		"process.launch": "launch",
+		"process.meeting": "meeting",
+		"process.discuss": "discuss",
+		"process.revision": "revision",
+		"process.internal": "internal testing",
+
+		"process.listen.title": "listen",
+		"process.listen.des":
+			"The first and most important stages of the process. I study your business, opportunities and business goals. We determine the budget and define SMART goals together.",
+		"process.research.title": "research",
+		"process.research.des":
+			"I analyze your product, marketing and sales system. Study market, competitors and audience. Build customers journey to your product.",
+		"process.wire.title": "wire frame",
+		"process.wire.des":
+			"Outline the structure and layout of the project. This visual blueprint will establish the foundation for the subsequent design and development phases.",
+		"process.design.title": "design",
+		"process.design.des":
+			"After approving wire frames, implement design according to brand colors, style and guides. Add responsiveness and interaction.",
+		"process.content.title": "content",
+		"process.content.des":
+			"Fill design with production assets and copywriting. Polish it with content and go to final approve.",
+		"process.dev.title": "site development",
+		"process.dev.des":
+			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
+		"process.testing.title": "testing",
+		"process.testing.des":
+			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
+		"process.seo.title": "SEO",
+		"process.seo.des":
+			"SEO optimization techniques are applied to enhance the project's visibility in search engines. This ensures that the project is discoverable by the target audience.",
+		"process.deploy.title": "deploy",
+		"process.deploy.des":
+			"The project is deployed to a live environment, marking the transition from development to production. This action makes the website or application available for users to engage with.",
+		"process.training.title": "training",
+		"process.training.des":
+			"After finishing project, will be provided training how to use site, update content and keep all services up to date.",
+		"process.support.title": "support",
+		"process.support.des":
+			"Ongoing provision of technical support will be in place to address any issues or queries that may arise post-deployment. This active assistance will ensure a reliable and secure user experience over time.",
 	},
 	uk: {
 		"nav.home": "Головна",
@@ -172,10 +217,9 @@ export const ui = {
 			"Привіт! Я Євгеній, креативний та досвідчений веб-дизайнер і розробник, який створює візуально приголомшливі та функціональні цифрові продукти. Маючи міцний фундамент як у принципах дизайну, так і в передових технологіях розробки, я вношу творчий підхід і технічний досвід у кожен проект, який реалізовую.",
 		"home.about.2":
 			"Я спеціалізуюсь на створенні доступних веб-сайтів, які створюють онлайн-успіх для малих та середніх бізнесів. Моє завдання - створювати неперевершені дизайни, які не лише візуально привабливі, але й зручні в користуванні, забезпечуючи бездоганний досвід для ваших клієнтів.",
-		// "Моя подорож у світі веб-дизайну та розробки озброїла мене глибоким розумінням користувацького досвіду, адаптивного дизайну та останніх новинок індустрії. Незалежно від того, чи створюю я бездоганні макети, чи пишу чистий та ефективний код, моя мета - перетворити ідеї на цікаві онлайн-рішення.",
 		"home.about.3":
 			"Я розумію унікальні виклики, з якими стикаються малі бізнеси, тому мої веб-рішення не лише ефективні, а й доступні. Ваша інвестиція в яскраву онлайн-присутність не повинна вас збанкрутувати.",
-		// "Давайте співпрацювати і втілимо ваше цифрове бачення в життя! Незалежно від того, чи є ви компанією, яка прагне забезпечити свою присутність в Інтернеті, чи яскрава особистість з унікальним проєктом, я з радістю поділюся з вами своїми навичками та пристрастю до справи. Нумо створювати неймовірні речі разом!",
+		"home.process": "Тут про процес",
 		"home.services": "Послуги",
 		"home.design": "Дизайн",
 		"home.design.des":
@@ -192,7 +236,6 @@ export const ui = {
 		"home.res": "Що дає результат",
 		"home.res.des":
 			"Мої веб-сайти - це не лише естетична краса; вони призначені бути ефективними та зручними в користуванні. Я надаю пріоритет користувацькому досвіду, забезпечуючи легку навігацію, що підвищує залученість та конверсію. Мої дизайни виходять за межі звичайного, створюючи онлайн-присутність, яка дійсно відображає сутність вашого бізнесу і резонує з вашими клієнтами.",
-		// "Зробіть крок у простий процес розробки веб-сайту, розроблений з урахуванням особливостей вашого бізнесу. Відчуйте легкість прямого спілкування з єдиною контактною особою, що забезпечує чітку та ефективну співпрацю. Ваш веб-сайт буде ретельно розроблений, пристосований до ваших унікальних потреб завдяки підходу, заснованому на детальному дослідженні ринку. Результат? Успішний шлях до яскравої присутності в Інтернеті, яка ідеально відповідає вашим бізнес-цілям.",
 		"home.research": "Дослідницький підхід",
 		"home.research.des":
 			"Скористайтеся перевагами процесу створення веб-сайту, заснованого на дослідженнях. Я проводжу глибокі дослідження вашої галузі, цільової аудиторії та конкурентів, щоб гарантувати, що ваш веб-сайт буде розроблений для задоволення конкретних потреб вашого бізнесу.",
@@ -257,9 +300,86 @@ export const ui = {
 		"home.ind.feature.7": "Ітераційна розробка",
 		"home.ind.feature.8": "Нестандартні рішення",
 		"home.order": "Замовити сайт",
+
+		"process.title": "How the Work is Done",
+		"process.des":
+			"The key to success is a process. Over a dozen of projects, I defined well performed comprehensive guide, which help me to get job done faster and clearly define all steps in my work.",
+
+		"process.strategy": "strategy",
+		"process.creative": "creative",
+		"process.dev": "development",
+		"process.launch": "launch",
+		"process.meeting": "meeting",
+		"process.discuss": "discuss",
+		"process.revision": "revision",
+		"process.internal": "internal testing",
+		"process.support": "support",
+
+		"process.listen.title": "збір",
+		"process.listen.des":
+			"Перший і найважливіший етап процесу. Я вивчаю ваш бізнес, можливості та бізнес-цілі. Ми разом визначаємо бюджет і формулюємо SMART-цілі.",
+		"process.research.title": "research",
+		"process.research.des":
+			"I analyze your product, marketing and sales system. Study market, competitors and audience. Build customers journey to your product.",
+		"process.wire.title": "wire frame",
+		"process.wire.des":
+			"Outline the structure and layout of the project. This visual blueprint will establish the foundation for the subsequent design and development phases.",
+		"process.design.title": "design",
+		"process.design.des":
+			"After approving wireframes, implement design according to brand colors, style and guides. Add responsiveness and interaction.",
+		"process.content.title": "content",
+		"process.content.des":
+			"Fill design with production assets and copywriting. Polish it with content and go to final approve.",
+		"process.dev.title": "site development",
+		"process.dev.des":
+			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
+		"process.testing.title": "testing",
+		"process.testing.des":
+			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
+		"process.seo.title": "SEO",
+		"process.seo.des":
+			"SEO optimization techniques are applied to enhance the project's visibility in search engines. This ensures that the project is discoverable by the target audience.",
+		"process.deploy.title": "deploy",
+		"process.deploy.des":
+			"The project is deployed to a live environment, marking the transition from development to production. This action makes the website or application available for users to engage with.",
+		"process.training.title": "training",
+		"process.training.des":
+			"After finishing project, will be provided training how to use site, update content and keep all services up to date.",
+		"process.support.title": "support",
+		"process.support.des":
+			"Ongoing provision of technical support will be in place to address any issues or queries that may arise post-deployment. This active assistance will ensure a reliable and secure user experience over time.",
 	},
 } as const;
 
 export type UiKeys = keyof typeof ui.en;
 
 export type Langs = keyof typeof languages;
+
+// "process.strategy": "",
+// "process.creative": "",
+// "process.dev": "",
+// "process.launch": "",
+// "process.meeting": "",
+// "process.discuss": "",
+// "process.revision": "",
+// "process.internal": "",
+// "process.support": "",
+
+// "process.research.title": "",
+// "process.research.des": "",
+// "process.wire.title": "",
+// "process.wire.des": "",
+// "process.design.title": "",
+// "process.design.des": "",
+// "process.content.title": "",
+// "process.content.des": "",
+// "process.dev.title": "",
+// "process.dev.des": "",
+// "process.testing.title": "",
+// "process.testing.des": "",
+// "process.seo.title": "",
+// "process.seo.des": "",
+// "process.deploy.title": "",
+// "process.deploy.des": "",
+// "process.training.title": "",
+// "process.training.des": "",

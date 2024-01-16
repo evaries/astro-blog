@@ -1,0 +1,22 @@
+---
+const { number, containerClass, numberClass, textClass, text } = Astro.props;
+---
+
+<div
+	class:list={[
+		"absolute bg-bgColor h-[100px] left-1/2 flex translate-x-[-50%] transform items-center justify-center",
+		containerClass || "",
+	]}
+>
+	<h4
+		class:list={[
+			"absolute flex items-baseline bg-bgColor text-9xl leading-[0px]",
+			numberClass || "",
+		]}
+	>
+		{number}
+	</h4>
+	<div class:list={["z-10 flex bg-bgColor leading-none px-10", textClass || ""]}>
+		<p class="font-semibold">{text}</p>
+	</div>
+</div>

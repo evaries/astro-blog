@@ -1,0 +1,14 @@
+---
+const { text, className, textClass } = Astro.props;
+---
+
+<div
+	class:list={[
+		"absolute left-1/2 flex translate-x-[-50%] transform items-center justify-center",
+		className || "",
+	]}
+>
+	<div class="z-10 flex bg-bgColor p-[1px]">
+		<p class:list={["font-bold", textClass || ""]}>{text}</p>
+	</div>
+</div>
