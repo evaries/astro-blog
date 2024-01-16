@@ -44,6 +44,7 @@
 		"@astrojs/partytown": "^1.2.3",
 		"@astrojs/prefetch": "^0.2.3",
 		"@astrojs/rss": "^2.4.3",
+		"@fontsource/inknut-antiqua": "^5.0.8",
 		"astro": "2.7.1",
 		"satori": "0.10.1",
 		"satori-html": "^0.3.2",
