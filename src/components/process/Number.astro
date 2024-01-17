@@ -16,7 +16,7 @@ const { number, containerClass, numberClass, textClass, text } = Astro.props;
 	>
 		{number}
 	</h4>
-	<div class:list={["z-10 flex bg-bgColor leading-none px-10", textClass || ""]}>
+	<div class:list={["z-10 flex bg-bgColor leading-none", textClass || ""]}>
 		<p class="font-semibold">{text}</p>
 	</div>
 </div>
