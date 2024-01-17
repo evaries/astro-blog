@@ -1,0 +1,107 @@
+---
+import Number from "@/components/process/Number";
+import Action from "@/components/process/Action";
+import MobileFeature from "@/components/process/MobileFeature";
+import "@fontsource/inknut-antiqua/800.css";
+
+import { getLangFromUrl, useTranslations } from "@/i18n";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="relative mt-10 md:hidden">
+	<div class="flex min-h-[2500px]">
+		<div
+			class="absolute left-1/2 -z-10 mt-3 h-[95%] w-[2px] translate-x-[-50%] transform bg-textColor"
+		>
+		</div>
+
+		<div class="w-full">
+			<Number
+				containerClass="mt-0 relative"
+				numberClass={"py-6"}
+				textClass={"ml-[40px]"}
+				number="1"
+				text={t("process.strategy")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.listen.title")}
+				description={t("process.listen.des")}
+			/>
+			<Action className="mt-10 relative" textClass="text-xs" text={t("process.meeting")} />
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.research.title")}
+				description={t("process.research.des")}
+			/>
+			<Action className="mt-10 relative" textClass="text-xs" text={t("process.meeting")} />
+			<Number
+				containerClass="mt-10 relative"
+				numberClass={"pb-4 pt-10"}
+				textClass={"ml-[45px]"}
+				number="2"
+				text={t("process.creative")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.wire.title")}
+				description={t("process.wire.des")}
+			/>
+			<Action className="mt-10 relative" textClass="text-xs" text={t("process.revision")} />
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.design.title")}
+				description={t("process.design.des")}
+			/>
+			<Action className="mt-10 relative" textClass="text-xs" text={t("process.meeting")} />
+			<Number
+				containerClass="mt-10 relative"
+				numberClass={"py-10"}
+				textClass={"ml-[45px]"}
+				number="3"
+				text={t("process.dev")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.dev.title")}
+				description={t("process.dev.des")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.testing.title")}
+				description={t("process.testing.des")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.seo.title")}
+				description={t("process.seo.des")}
+			/>
+			<Action className="mt-10 relative" textClass="text-xs" text={t("process.internal")} />
+			<Number
+				containerClass="mt-10 relative"
+				numberClass={"py-10 mr-[30px]"}
+				textClass={"pl-0 ml-[25px]"}
+				number="4"
+				text={t("process.launch")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.deploy.title")}
+				description={t("process.deploy.des")}
+			/>
+			<MobileFeature
+				className={"mt-10"}
+				title={t("process.training.title")}
+				description={t("process.training.des")}
+			/>
+			<Action className="mt-16 relative font-bold text-xl" text={t("process.support.title")} />
+			<Action
+				className="relative"
+				textClass="text-sm font-normal text-center max-w-[400px]"
+				text={t("process.support.des")}
+			/>
+		</div>
+	</div>
+</section>
