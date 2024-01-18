@@ -160,7 +160,7 @@ export const ui = {
 			"Fill design with production assets and copywriting. Polish it with content and go to final approve.",
 		"process.dev.title": "site development",
 		"process.dev.des":
-			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
+			"Translate the design and content into functional code, bringing our project to life collaboratively. Throughout the development process, we establish iterative feedback loops to keep you involved and ensure your expectations are not just met but exceeded.",
 		"process.testing.title": "testing",
 		"process.testing.des":
 			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
@@ -332,7 +332,7 @@ export const ui = {
 			"Fill design with production assets and copywriting. Polish it with content and go to final approve.",
 		"process.dev.title": "site development",
 		"process.dev.des":
-			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
+			"Translate the design and content into functional code, bringing our project to life collaboratively. Throughout the development process, we establish iterative feedback loops to keep you involved and ensure your expectations are not just met but exceeded.",
 		"process.testing.title": "testing",
 		"process.testing.des":
 			"Identify and rectify any potential issues. This ensures that the final product is robust, secure, and capable of delivering a smooth user experience.",
