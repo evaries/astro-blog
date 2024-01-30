@@ -16,7 +16,7 @@ export const ui = {
 		"main.description.3":
 			"I've noticed a widespread neglect of essential UX design principles in many websites, leading to lower conversions, increased usability issues, and overall inefficiency. My approach to website design is geared towards steering clear of these pitfalls.",
 		"main.description.4":
-			"My mission is straightforward: I aim to improve the usability and aesthetics of the Internet, one website at a time. Through a combination of skill, attention to detail, and a passion for excellence, I strive to elevate the online presence of businesses, delivering not just functional but outstanding websites that resonate with users. If you're in search of a web developer who not only recognizes the significance of a great website but also possesses the skills to bring it to life, look no further – I'm here to transform your online presence.",
+			"My mission is straightforward: I aim to improve the usability and aesthetics of the Internet, one website at a time. Through a combination of skill, attention to detail, and a passion for excellence, I strive to elevate the online presence of businesses, delivering not just functional but outstanding websites that resonate with users.",
 		"main.articles": "Blog",
 		"main.social": "Find me here:",
 		"about.title": "About",
@@ -37,15 +37,15 @@ export const ui = {
 		"post.previous": "← Previous Post",
 		"post.next": "Next Post →",
 		"post.table": "Table of Contents",
-		"home.h1": "Affordable Websites For Small Businesses",
+		"home.h1": "Affordable Websites For Your Business",
 		"home.title":
-			"I'm great at making unbeatable websites for small to medium-sized businesses. They are effective, easy to use, and look fantastic — something your customers will really like.",
+			"Online presence is essential for any business today, and I know how to do it right. Depending on your needs, it can be a landing page that converts or a highly functional website and even a full-fledged app. All this will help your business grow much faster and earn more.",
 		"home.price": "Pricing",
 		"home.about": "About me",
 		"home.about.1":
-			"Hello there! I'm Yevhenii, a passionate and versatile web designer and developer with a keen eye for creating visually stunning and highly functional digital experiences. With a solid foundation in both design principles and cutting-edge development technologies, I bring creativity and technical expertise to every project I undertake.",
+			"Hello there! I'm Yevhenii, a passionate and versatile web designer and developer with a keen eye for creating visually stunning and highly functional websites. With a solid foundation in both design principles and cutting-edge development technologies, I bring creativity and technical expertise to every project I undertake.",
 		"home.about.2":
-			"I specialize in crafting affordable websites that redefine online success for small to medium-sized businesses. My commitment is to deliver unbeatable designs that are not only visually stunning but also user-friendly, ensuring a seamless experience for your customers.",
+			"Online presence is essential for any business today, and I know how to do it right. Depending on your needs, it can be a landing page that converts or a highly functional website and even a full-fledged app. All this will help your business grow much faster and earn more.",
 		"home.about.3":
 			"I understand the unique challenges faced by small businesses, and that's why my website solutions are not only effective but also budget-friendly. Your investment in a powerful online presence shouldn't break the bank.",
 		"home.process": "Here about process",
@@ -55,43 +55,42 @@ export const ui = {
 			"Collaborate closely with you to create a cool website that showcases your unique style and ensures an easy user experience. Make your online space stand out with visually appealing designs.",
 		"home.code": "Code",
 		"home.code.des":
-			"Bring your ideas to life online by employing the latest technologies and coding practices. Specialize in turning concepts into reality, building fully functional websites that meet your objectives.",
+			"Bring ideas online by employing the latest technologies and coding practices. Turning concepts into reality, building fully functional, fast and optimized websites, that meet your objectives.",
 		"home.optimizations": "Optimizations",
 		"home.optimizations.des":
-			"Enhance your website's performance by conducting a meticulous analysis of its structure, content, and user experience. Implement strategic optimizations to ensure faster loading times, improved search engine rankings, and an overall enhanced user experience.",
+			"All sites are built with performance in mind. They are optimized for both: speed and SEO, which in combination give a convenient user experience and visibility on the Internet.",
 		"home.maintenance": "Maintenance",
 		"home.maintenance.des":
-			"Take care of ongoing website updates to ensure your site remains current, user-friendly, and technologically advanced. Make sure your website is always running smoothly and optimally so you can focus solely on core business priorities.",
-		"home.res": "What Gives Result",
-		"home.res.des":
-			"My websites are more than just aesthetically pleasing; they are designed to be effective and easy to use. I prioritize user experience, ensuring that visitors can effortlessly navigate your site, increasing engagement and conversions. Make a lasting impression with visually striking websites that captivate your audience. I go beyond the ordinary, creating an online presence that truly reflects the essence of your business and resonates with your customers.",
+			"Maintenance after deployment is included in the scope. Your site will remain current, user-friendly, and technologically advanced. It will always run smoothly and optimally so you can focus solely on core business priorities.",
+		"home.res": "Key Features",
+		"home.res.des": "that will allow you to get everything you need from the site.",
 		"home.research": "Research-Driven Approach",
 		"home.research.des":
-			"Gain the advantage of a research-driven website creation process. I conduct in-depth research into your industry, target audience, and competitors to ensure that your website is strategically designed to meet the specific needs of your business.",
-		"home.needs": "Tailored to Your Needs",
+			"In-depth research into your industry, target audience, and competitors to ensure that your website is designed to meet the specific needs of your business.",
+		"home.needs": "Based on your needs",
 		"home.needs.des":
-			"Your website is crafted with a keen understanding of your unique needs. I prioritize your requirements, ensuring that the final product aligns perfectly with your business goals and objectives.",
+			"Each website is created with a deep understanding of your unique needs, prioritizing them and ensuring that the final product perfectly matches your business goals and objectives.",
 		"home.mobile": "Mobile-Optimized Design",
 		"home.mobile.des":
-			"Your website is optimized for mobile devices, guaranteeing a seamless and engaging experience for users on phones and tablets. This ensures broader accessibility and improved user satisfaction.",
+			"Optimization for mobile devices guaranteeing a seamless and engaging experience for users on phones and tablets. This ensures broader accessibility and improved user satisfaction.",
 		"home.seo": "SEO-Friendly Structure",
 		"home.seo.des":
-			"Enhance your online visibility with an SEO-friendly website structure. I implement best practices to optimize your website for search engines, improving its chances of ranking higher in search results and attracting more organic traffic.",
+			"Increase your online visibility with an SEO-friendly structure. The website is implemented using the best practices to optimize your site for search engines, which increases its chances of ranking higher in search results and driving more organic traffic.",
 		"home.conversion": "Conversion-Oriented Design",
 		"home.conversion.des":
-			"Your website is designed with conversion in mind. From compelling calls-to-action to intuitive navigation, every element is strategically placed to encourage visitor engagement and boost the likelihood of conversions.",
+			"The website is designed with conversion in mind. From compelling calls-to-action to intuitive navigation, every element is strategically placed to encourage visitor engagement and boost conversions.",
 		"home.speed": "Fast Loading Times",
 		"home.speed.des":
-			"Your website is optimized for speed, ensuring quick loading times. This not only enhances the user experience but also contributes to better search engine rankings, positively impacting your website's overall performance.",
+			"The website is optimized for speed, which ensures fast loading. This not only improves the user experience, but also contributes to better search engine rankings, which has a positive impact on the overall performance of your site.",
 		"home.custom": "Highly Customizable",
 		"home.custom.des":
-			"Enjoy the flexibility of a highly customizable website. I tailor the design and functionality to match your brand identity, allowing for easy updates and adaptations as your business evolves.",
+			"Endless variations for website customization. It is easy to expand the functionality or add new features that allow you to stay relevant in the market and in business.",
 		"home.communication": "Direct Communication",
 		"home.communication.des":
-			"Experience streamlined communication with a single point of contact throughout the entire website creation process. This ensures clarity, efficiency, and a more personalized experience as we work together to bring your vision to life.",
-		"home.pricing": "Affordable Website Pricing",
+			"Communication with a single point of contact throughout the entire website creation process. This ensures clarity, efficiency, and a more personalized experience as we work together to bring your vision to life.",
+		"home.pricing": "Packages",
 		"home.pricing.des":
-			"Ready to transform your online presence affordably? Contact me today for a free consultation and discover how unbeatable websites can drive success for your business!",
+			"We can schedule free consultation call, where can discuss all you needs and pick suitable package.",
 		"home.site": "site",
 		"home.std": "Standard",
 		"home.std.title.1": "A website featuring minimal design customization and essential features.",
@@ -128,7 +127,7 @@ export const ui = {
 		"home.ind.feature.6": "Complex features",
 		"home.ind.feature.7": "Iteration development",
 		"home.ind.feature.8": "Custom solutions",
-		"home.order": "Order Website",
+		"home.order": "Book free call",
 
 		"process.title": "How the Work is Done",
 		"process.des":
@@ -187,7 +186,7 @@ export const ui = {
 		"main.description.3":
 			"Я виявив, що багато веб-сайтів ігнорують основні принципи UX-дизайну, що може призвести до зниження конверсії та проблем з юзабіліті. Мій підхід до дизайну веб-сайтів орієнтований на уникнення цих проблем.",
 		"main.description.4":
-			"Моя місія проста: Я хочу покращити зручність та естетику інтернету. Один сайт за раз. Завдяки поєднанню майстерності, уваги до деталей і жаги до досконалості, я прагну підвищити присутність бізнесу в Інтернеті, створюючи не просто функціональні, а видатні веб-сайти, які знаходять відгук у користувачів. Якщо ви шукаєте веб-розробника, який не лише розуміє важливість чудового веб-сайту, але й володіє навичками для його втілення в життя, не шукайте далі - зв'яжіться зі мною.",
+			"Моя місія проста: Я прагну покращити юзабіліті та естетику Інтернету, один веб-сайт за раз. Завдяки поєднанню майстерності, уваги до деталей і пристрасті до досконалості я прагну підвищити присутність компаній в Інтернеті, створюючи не просто функціональні, а видатні веб-сайти, які резонують з користувачами",
 		"main.articles": "Блог",
 		"main.social": "Шукай мене тут:",
 		"about.title": "Про що тут",
@@ -208,15 +207,15 @@ export const ui = {
 		"post.previous": "← Попередня стаття",
 		"post.next": "Наступна стаття →",
 		"post.table": "Зміст",
-		"home.h1": "Доступні сайти для малого бізнесу",
+		"home.h1": "Доступні сайти для вашого бізнесу",
 		"home.title":
-			"Я спеціалізуюсь на створенні неперевершених веб сайтів та застосунків для малого та середнього бізнесу. Вони ефективні, зручні, виглядають фантастично та конвертують користувачів у клієнтів",
+			"Присутність в Інтернеті сьогодні необхідна для будь-якого бізнесу, і я знаю, як це зробити правильно. Залежно від ваших потреб, це може бути лендінг, що конвертує, або високофункціональний веб-сайт і навіть повноцінний додаток. Все це допоможе вашому бізнесу розвиватися набагато швидше і заробляти більше",
 		"home.price": "Ціни",
 		"home.about": "Про мене",
 		"home.about.1":
-			"Привіт! Я Євгеній, креативний та досвідчений веб-дизайнер і розробник, який створює візуально приголомшливі та функціональні цифрові продукти. Маючи міцний фундамент як у принципах дизайну, так і в передових технологіях розробки, я вношу творчий підхід і технічний досвід у кожен проект, який реалізовую.",
+			"Привіт! Я Євгеній, досвідчений і різнобічний веб-дизайнер і розробник, який створює візуально приголомшливі та високофункціональні веб-сайти. Маючи міцний фундамент як в принципах дизайну, так і в передових технологіях розробки, я вношу творчий підхід і технічний досвід в кожен проект, за який беруся",
 		"home.about.2":
-			"Я спеціалізуюсь на створенні доступних веб-сайтів, які створюють онлайн-успіх для малих та середніх бізнесів. Моє завдання - створювати неперевершені дизайни, які не лише візуально привабливі, але й зручні в користуванні, забезпечуючи бездоганний досвід для ваших клієнтів.",
+			"Присутність в Інтернеті сьогодні необхідна для будь-якого бізнесу, і я знаю, як зробити це правильно. Залежно від ваших потреб, це може бути цільова сторінка, яка конвертує, або високофункціональний веб-сайт і навіть повноцінний додаток. Все це допоможе вашому бізнесу розвиватися набагато швидше і заробляти більше",
 		"home.about.3":
 			"Я розумію унікальні виклики, з якими стикаються малі бізнеси, тому мої веб-рішення не лише ефективні, а й доступні. Ваша інвестиція в яскраву онлайн-присутність не повинна вас збанкрутувати.",
 		"home.process": "Тут про процес",
@@ -226,43 +225,42 @@ export const ui = {
 			"Я тісно співпрацюю з вами, щоб створити унікальний веб-сайт, який демонструє ваш самобутній стиль і забезпечує зручність користування. Я роблю ваш онлайн-простір візуально привабливим.",
 		"home.code": "Розробка",
 		"home.code.des":
-			"Втілюю ваші ідеї в життя онлайн, використовуючи новітні технології та практики розробки. Я спеціалізуюся на перетворенні концепцій в реальність, створюючи повнофункціональні веб-сайти, які відповідають вашим цілям",
+			"Втілення ідеї в життя, використовуючи новітні технології та практики кодування. Перетворення концепцій в реальність, створення повнофункціональних, швидких та оптимізованих веб-сайтів, які відповідають вашим цілям",
 		"home.optimizations": "Оптимізації",
 		"home.optimizations.des":
-			"Підвищую ефективність вашого сайту, проводячи ретельний аналіз його структури, контенту та користувацького досвіду. Впроваджую оптимізацію для забезпечення швидшого завантаження, підвищення позицій у пошукових системах та загального покращення користувацького досвіду",
-		"home.maintenance": "Технічне обслуговування",
+			"Всі сайти створюються з урахуванням продуктивності. Вони оптимізовані як для швидкості, так і для SEO, що в поєднанні дає зручний користувацький досвід та видимість в Інтернеті.",
+		"home.maintenance": "Обслуговування",
 		"home.maintenance.des":
-			"Я дбаю про постійне оновлення веб-сайту, щоб ваш сайт залишався актуальним, зручним для користувачів і технологічно просунутим. Я забезпечую безперебійну та оптимальну роботу вашого веб-сайту, щоб ви могли зосередитися виключно на основних бізнес-пріоритетах",
-		"home.res": "Що дає результат",
-		"home.res.des":
-			"Мої веб-сайти - це не лише естетична краса; вони призначені бути ефективними та зручними в користуванні. Я надаю пріоритет користувацькому досвіду, забезпечуючи легку навігацію, що підвищує залученість та конверсію. Мої дизайни виходять за межі звичайного, створюючи онлайн-присутність, яка дійсно відображає сутність вашого бізнесу і резонує з вашими клієнтами.",
+			"Обслуговування після запуску. Ваш сайт залишатиметься актуальним, зручним для користувачів і технологічно просунутим. Він завжди працюватиме безперебійно та оптимально, щоб ви могли зосередитися виключно на основних бізнес-пріоритетах.",
+		"home.res": "Ключові особливості",
+		"home.res.des": "які дозволять вам отримати від сайту все, що вам потрібно.",
 		"home.research": "Дослідницький підхід",
 		"home.research.des":
-			"Скористайтеся перевагами процесу створення веб-сайту, заснованого на дослідженнях. Я проводжу глибокі дослідження вашої галузі, цільової аудиторії та конкурентів, щоб гарантувати, що ваш веб-сайт буде розроблений для задоволення конкретних потреб вашого бізнесу.",
-		"home.needs": "З урахуванням ваших потреб",
+			"Поглиблене дослідження вашої галузі, цільової аудиторії та конкурентів, щоб гарантувати, що ваш сайт буде розроблений відповідно до конкретних потреб вашого бізнесу.",
+		"home.needs": "Виходячи з ваших потреб",
 		"home.needs.des":
-			"Ваш веб-сайт буде створений з глибоким розумінням ваших унікальних потреб. Я визначаю пріоритети ваших вимог, гарантуючи, що кінцевий продукт ідеально відповідає вашим бізнес-цілям і завданням.",
+			"Кожен веб-сайт створюється з глибоким розумінням ваших унікальних потреб, визначенням їх пріоритетності та забезпеченням того, щоб кінцевий продукт ідеально відповідав вашим бізнес-цілям і завданням.",
 		"home.mobile": "Оптимізований для мобільних пристроїв",
 		"home.mobile.des":
-			"Ваш веб-сайт буде оптимізовано для мобільних пристроїв, що гарантує легку та продуктивну роботу користувачів на смартфонах і планшетах. Це забезпечує ширшу доступність і підвищує задоволеність користувачів.",
-		"home.seo": "SEO-friendly структура",
+			"Оптимізація для мобільних пристроїв гарантує безперебійну та зручну роботу для користувачів телефонів і планшетів. Це забезпечує ширшу доступність і підвищує задоволеність користувачів",
+		"home.seo": "SEO-дружня структура",
 		"home.seo.des":
-			"Підвищення видимісті в Інтернеті за допомогою SEO-friendly структури веб-сайту. Я впроваджую найкращі практики для оптимізації вашого веб-сайту для пошукових систем, покращуючи його шанси на вищі позиції в результатах пошуку та залучаючи більше органічного трафіку.",
+			"Підвищення видимості в Інтернеті за допомогою оптимізованої SEO структури. Веб-сайт реалізовано з використанням найкращих практик для оптимізації в пошукових системах, що підвищує його шанси на вищі позиції в результатах пошуку та залучення більшої кількості органічного трафіку.",
 		"home.conversion": "Орієнтований на конверсію дизайн",
 		"home.conversion.des":
-			"Ваш веб-сайт буде розроблений з думкою про конверсію. Від переконливих call-to-action до інтуїтивно зрозумілої навігації, кожен елемент стратегічно розміщений так, щоб утримувати відвідувачів і підвищувати ймовірність конверсії.",
-		"home.speed": "Швидкість завантаження",
+			"Веб-сайт розроблений з думкою про конверсію. Від переконливих закликів до дії до інтуїтивно зрозумілої навігації, кожен елемент стратегічно розміщений, щоб заохочувати залучення відвідувачів і підвищувати конверсію.",
+		"home.speed": "Швидкий час завантаження",
 		"home.speed.des":
-			"Ваш веб-сайт буде оптимізовано, що забезпечує швидке завантаження. Це не тільки покращує користувацький досвід, але й сприяє кращому ранжуванню в пошукових системах, позитивно впливаючи на загальну продуктивність.",
-		"home.custom": "Гнучкі налаштування",
+			"Веб-сайт оптимізовано для швидкості, що забезпечує швидке завантаження. Це не тільки покращує користувацький досвід, але й сприяє кращому ранжуванню в пошукових системах, що позитивно впливає на загальну продуктивність вашого сайту.",
+		"home.custom": "Просто маштабується",
 		"home.custom.des":
-			"Насолоджуйтесь гнучкістю веб-сайту, що легко налаштовується. Я адаптую дизайн і функціональність до вашого фірмового стилю, що дозволяє легко оновлювати та адаптувати його в міру розвитку вашого бізнесу.",
+			"Безмежні варіації для кастомізації сайту. Легко розширити функціонал або додати нові можливості, які дозволять вам залишатися актуальними на ринку та в бізнесі.",
 		"home.communication": "Пряма комунікація",
 		"home.communication.des":
-			"Оцініть спрощену комунікацію з єдиною контактною особою протягом усього процесу створення веб-сайту. Це забезпечує чіткість, ефективність і більш персоналізований досвід, оскільки ми працюємо разом, щоб втілити ваше бачення в життя.",
-		"home.pricing": "Доступні ціни на сайт",
+			"Спілкування з єдиною контактною особою протягом усього процесу створення веб-сайту. Це забезпечує чіткість, ефективність і більш персоналізований досвід, оскільки ми працюємо разом, щоб втілити ваше бачення в життя.",
+		"home.pricing": "Пакети",
 		"home.pricing.des":
-			"Готові трансформувати свою онлайн-присутність доступно? Зв'яжіться зі мною сьогодні для безкоштовної консультації та дізнайтеся, як неперевершені веб-сайти можуть допомогти вам досягти успіху у вашому бізнесу!",
+			"Ми можемо призначити безкоштовний консультаційний дзвінок, де обговоримо всі ваші потреби та підберемо відповідний пакет.",
 		"home.site": "сайт",
 		"home.std": "Стандартний",
 		"home.std.title.1": "Сайт з мінімальним налаштуванням дизайну та основними функціями.",
@@ -299,12 +297,10 @@ export const ui = {
 		"home.ind.feature.6": "Складні функції",
 		"home.ind.feature.7": "Ітераційна розробка",
 		"home.ind.feature.8": "Нестандартні рішення",
-		"home.order": "Замовити сайт",
-
-		"process.title": "How the Work is Done",
+		"home.order": "Замовити дзвінок",
+		"process.title": "Як я працюю",
 		"process.des":
-			"The key to success is a process. Over a dozen of projects, I defined well performed comprehensive guide, which help me to get job done faster and clearly define all steps in my work.",
-
+			"Ключ до успіху - це процес. За десяток проектів я визначив для себе чіткі та зрозумілі інструкції, які допомагають мені швидше виконувати роботу та правильно визначати всі кроки в моїй роботі",
 		"process.strategy": "strategy",
 		"process.creative": "creative",
 		"process.dev": "development",
