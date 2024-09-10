@@ -1,10 +1,10 @@
 ---
-import { getCollection } from "astro:content";
-import PageLayout from "@/layouts/Base";
-import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
-import { sortMDByDate } from "@/utils";
+import PostPreview from "@/components/blog/PostPreview";
 import { getLangFromUrl, useTranslations } from "@/i18n";
+import PageLayout from "@/layouts/Base";
+import { sortMDByDate } from "@/utils";
+import { getCollection } from "astro:content";
 
 export function getStaticPaths() {
 	return [{ params: { lang: "en" } }, { params: { lang: "uk" } }];
@@ -20,12 +20,29 @@ const t = useTranslations(lang);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">👋</h1>
-		<p class="mb-4">{t("main.title")}</p>
+		<h1 class="title mb-4 text-3xl md:text-5xl ">{t("main.title")}</h1>
 		<p class="mb-4">{t("main.description.1")}</p>
-		<!-- <p class="mb-4">{t("main.description.2")}</p>
-		<p class="mb-4">{t("main.description.3")}</p> -->
-		<p class="mb-4">{t("main.description.4")}</p>
+	 	<p class="mb-4">{t("main.description.2")}</p>
+		<h2 class="title mb-4">{t("main.title3")}</h2>
+		<ul class="space-y-4 sm:space-y-2">
+			<li class="">
+				<h3 class="text-md font-semibold inline-block">{t("main.why.title1")}</h3>&nbsp;
+				<p class="mb-2 inline">{t("main.why.desc1")}</p>
+			</li>
+			<li class="">
+				<h3 class="text-md font-semibold inline-block">{t("main.why.title2")}</h3>&nbsp;
+				<p class="mb-2 inline">{t("main.why.desc2")}</p>
+			</li>
+			<li class="">
+				<h3 class="text-md font-semibold inline-block">{t("main.why.title3")}</h3>&nbsp;
+				<p class="mb-2 inline">{t("main.why.desc3")}</p>
+			</li>
+			<li class="">
+				<h3 class="text-md font-semibold inline-block">{t("main.why.title4")}</h3>&nbsp;
+				<p class="mb-2 inline">{t("main.why.desc4")}</p>
+			</li>
+	
+		</ul>
 	</section>
 	<SocialList />
 	<section aria-label="Blog post list" class="mt-16">
