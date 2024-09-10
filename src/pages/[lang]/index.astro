@@ -1,23 +1,17 @@
 ---
-import { getCollection } from "astro:content";
-import PageLayout from "@/layouts/Base";
-import PostPreview from "@/components/blog/PostPreview";
-import SocialList from "@/components/SocialList";
-import { sortMDByDate } from "@/utils";
-import { getLangFromUrl, ui, useTranslations } from "@/i18n";
-import { Image } from "astro:assets";
-import Portrait from "@/assets/svg/portrait";
-import Design from "@/assets/svg/design";
-import Code from "@/assets/svg/code";
-import Optimizations from "@/assets/svg/optimizations";
-import Maintenance from "@/assets/svg/maintenance";
-import Standard from "@/assets/svg/standard";
 import Advanced from "@/assets/svg/advanced";
+import Code from "@/assets/svg/code";
+import Design from "@/assets/svg/design";
 import Individual from "@/assets/svg/individual";
-import Check from "@/assets/svg/check";
-import { advantages } from "@/data/content";
-import type { UiKeys } from "src/i18n/ui";
+import Maintenance from "@/assets/svg/maintenance";
+import Optimizations from "@/assets/svg/optimizations";
+import Portrait from "@/assets/svg/portrait";
+import Standard from "@/assets/svg/standard";
 import PackageList from "@/components/PackageList";
+import { advantages } from "@/data/content";
+import { getLangFromUrl, useTranslations } from "@/i18n";
+import PageLayout from "@/layouts/Base";
+import type { UiKeys } from "src/i18n/ui";
 
 export function getStaticPaths() {
 	return [{ params: { lang: "en" } }, { params: { lang: "uk" } }];
@@ -28,28 +22,35 @@ const t = useTranslations(lang);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="text-5xl font-bold sm:text-6xl md:text-8xl">{t("home.h1")}</h1>
-		<p class="mt-16 max-w-[400px]">
-			{t("home.title")}
+		<h1 class="text-4xl font-bold sm:text-4xl md:text-5xl text-center">{t("home.h1")}</h1>
+		<p class="mt-10 md:mt-16 text-center text-base font-semibodl md:text-lg">
+			{t("home.title1")}
 		</p>
-		<a href="#pricing" class="mt-4 flex text-2xl font-bold hover:underline">{t("home.price")}</a>
+		<div class="mt-10 flex justify-center">
+			<button class="px-5 py-2 bg-gray-900 rounded-lg text-gray-50 hover:bg-gray-800 dark:bg-gray-200 dark:text-gray-800 dark:hover:bg-gray-300">
+				<a class="text-xl font-bold "
+				href="https://calendly.com/yevhenii-nadtochii/free-consultation-call"
+			>
+				{t("home.order")}
+			</a></button>
+		</div>
 	</section>
-	<section class="mt-16 grid">
+	<section class="mt-40 grid">
 		<h2 class="grid justify-center text-4xl font-bold">{t("home.about")}</h2>
 		<div class="mt-4 grid grid-flow-row-dense gap-3 md:grid-cols-2">
 			<div class="mt-8">
+				<p  class="mt-4 flex text-base font-bold "
+					>{t("home.about.name")}</p
+				>
 				<p class="mt-3">
 					{t("home.about.1")}
 				</p>
-				<!-- <p class="mt-3">
+				<p class="mt-3 mb-6">
 					{t("home.about.2")}
-				</p> -->
-				<!-- <p class="mt-3">
+				</p>
+				<a href="#pricing" class="font-bold text-base hover:underline ">
 					{t("home.about.3")}
-				</p> -->
-				<a href={`/${lang}/process`} class="mt-4 flex text-base font-bold hover:underline"
-					>{t("home.process")}</a
-				>
+				</a>
 			</div>
 			<div class="flex justify-center">
 				<Portrait />
@@ -64,7 +65,7 @@ const t = useTranslations(lang);
 					<Design />
 				</div>
 				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
-					<span class="">{t("home.design")}</span>
+					<span class="text-center">{t("home.design")}</span>
 				</div>
 				<p class="mt-7">
 					{t("home.design.des")}
@@ -75,7 +76,7 @@ const t = useTranslations(lang);
 					<Code />
 				</div>
 				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
-					<span class="">{t("home.code")}</span>
+					<span class="text-center">{t("home.code")}</span>
 				</div>
 				<p class="mt-7">
 					{t("home.code.des")}
@@ -86,7 +87,7 @@ const t = useTranslations(lang);
 					<Optimizations />
 				</div>
 				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
-					<span class="">{t("home.optimizations")}</span>
+					<span class="text-center">{t("home.optimizations")}</span>
 				</div>
 				<p class="mt-7">
 					{t("home.optimizations.des")}
@@ -97,7 +98,7 @@ const t = useTranslations(lang);
 					<Maintenance />
 				</div>
 				<div class="mt-4 flex flex-row justify-center text-xl font-semibold">
-					<span class="">{t("home.maintenance")}</span>
+					<span class="text-center">{t("home.maintenance")}</span>
 				</div>
 				<p class="mt-7">
 					{t("home.maintenance.des")}

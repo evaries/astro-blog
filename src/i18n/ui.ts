@@ -8,11 +8,21 @@ export const defaultLang = "en";
 export const ui = {
 	en: {
 		"nav.home": "Home",
-		"main.title": "Hey! You look awesome today!",
+		"main.title": "Elevate Your Business with a Website That Works for You",
 		"main.description.1":
-			"I'm Yevhenii, a proficient web developer focused on crafting unbeatable websites tailored for small to medium-sized businesses. My forte lies in creating websites that are not only effective and user-friendly but also visually appealing, leaving a positive impact on customers.",
+			"Hi there! I'm Yevhenii, a web designer and developer dedicated to helping businesses like yours succeed online. I specialize in creating websites that not only look stunning but also drive real results—more traffic, higher engagement, and increased conversions.",
+		"main.title2": "Why Work with Me?",
 		"main.description.2":
-			"Let's face it – many websites out there aren't up to par. I'm dedicated to rectifying that issue by meticulously designing each website with a clear purpose, ensuring an enhanced user experience.",
+			"I combine creative design with cutting-edge development to craft websites that are as functional as they are beautiful. Every project I take on is tailored to your unique goals, ensuring your online presence stands out and connects with your target audience.",
+		"main.title3": "What Does This Mean for You?",
+		"main.why.title1":"A Memorable First Impression:",
+		"main.why.desc1":"Your website will be the digital face of your business, designed to captivate visitors from the moment they land on your page.",
+		"main.why.title2":"Seamless User Experience: ",
+		"main.why.desc2":"Every detail is crafted to ensure a smooth, intuitive experience that keeps users engaged and encourages them to take action.",
+		"main.why.title3":"Enhanced Visibility:",
+		"main.why.desc3":"I optimize for performance and SEO, helping your business rank higher in search results and attract more qualified leads.",
+		"main.why.title4":"Ongoing Support:",
+		"main.why.desc4":"From launch to growth, I’m here to support your website’s needs, so you can focus on what you do best—running your business.",
 		"main.description.3":
 			"I've noticed a widespread neglect of essential UX design principles in many websites, leading to lower conversions, increased usability issues, and overall inefficiency. My approach to website design is geared towards steering clear of these pitfalls.",
 		"main.description.4":
@@ -37,31 +47,34 @@ export const ui = {
 		"post.previous": "← Previous Post",
 		"post.next": "Next Post →",
 		"post.table": "Table of Contents",
-		"home.h1": "Affordable Websites For Your Business",
-		"home.title":
-			"Online presence is essential for any business today, and I know how to do it right. Depending on your needs, it can be a landing page that converts or a highly functional website and even a full-fledged app. All this will help your business grow much faster and earn more.",
+		"home.h1": "Boost Your Business with a High-Performing Website",
+		"home.title1":
+			"Your website should be more than just a digital brochure — it should be a powerful tool that brings in new customers, showcases what makes your business unique, and helps you grow.",
+		"home.title2":
+			"I create custom websites tailored to your goals, designed to turn visitors into loyal customers.",
 		"home.price": "Pricing",
 		"home.about": "About me",
+		"home.about.name": "Hi, I’m Yevhenii! Your Partner in Building Websites That Deliver Results.",
 		"home.about.1":
-			"Hello there! I'm Yevhenii, a passionate and versatile web designer and developer with a keen eye for creating visually stunning and highly functional websites. With a solid foundation in both design principles and cutting-edge development technologies, I bring creativity and technical expertise to every project I undertake.",
+			"You need more than just a website—you need a solution that connects with your audience, builds trust, and drives growth. With a unique blend of creative design and technical expertise, I create websites that not only look great but are also optimized for performance and conversions.",
 		"home.about.2":
-			"Online presence is essential for any business today, and I know how to do it right. Depending on your needs, it can be a landing page that converts or a highly functional website and even a full-fledged app. All this will help your business grow much faster and earn more.",
+			"I focus on understanding your business goals and crafting a digital experience that sets you apart from the competition. From initial concept to the final launch, I’m here to ensure your website is a powerful asset for your business.",
 		"home.about.3":
-			"I understand the unique challenges faced by small businesses, and that's why my website solutions are not only effective but also budget-friendly. Your investment in a powerful online presence shouldn't break the bank.",
+			"Let’s make your online presence your strongest business advantage.",
 		"home.process": "Here about process",
 		"home.services": "Services",
-		"home.design": "Design",
+		"home.design": "Custom Website Design",
 		"home.design.des":
-			"Collaborate closely with you to create a cool website that showcases your unique style and ensures an easy user experience. Make your online space stand out with visually appealing designs.",
-		"home.code": "Code",
+			"Make a lasting impression with a website that reflects your brand and engages your audience. I create designs tailored to your unique style and business goals, ensuring your site not only looks great but also delivers a seamless user experience that keeps visitors coming back.",
+		"home.code": "Development for Results",
 		"home.code.des":
-			"Bring ideas online by employing the latest technologies and coding practices. Turning concepts into reality, building fully functional, fast and optimized websites, that meet your objectives.",
-		"home.optimizations": "Optimizations",
+			"Get a website that works as hard as you do. I build fast, responsive, and fully functional websites using the latest technologies. Your site will be optimized to load quickly, work flawlessly, and adapt to any device—so you can reach your customers wherever they are.",
+		"home.optimizations": "Performance & SEO Optimization",
 		"home.optimizations.des":
-			"All sites are built with performance in mind. They are optimized for both: speed and SEO, which in combination give a convenient user experience and visibility on the Internet.",
-		"home.maintenance": "Maintenance",
+			"Stand out in search results and convert more visitors into customers. I optimize your website for speed and search engine visibility, ensuring your site is easy to find and provides an outstanding user experience. This means more traffic, more engagement, and ultimately, more sales.",
+		"home.maintenance": "Ongoing Maintenance & Support",
 		"home.maintenance.des":
-			"Maintenance after deployment is included in the scope. Your site will remain current, user-friendly, and technologically advanced. It will always run smoothly and optimally so you can focus solely on core business priorities.",
+			"Stay focused on what you do best, while I keep your website up to date and running smoothly. From regular updates to security checks, I provide continuous support to ensure your site remains secure, functional, and aligned with the latest technology standards.",
 		"home.res": "Key Features",
 		"home.res.des": "that will allow you to get everything you need from the site.",
 		"home.research": "Research-Driven Approach",
